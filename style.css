@@ -1,0 +1,54 @@
+/*
+Theme Name: Goodman.
+Theme URI: http://twitter.com/deumolo
+Description: Makin' fat stacks, yo.
+Author: Daniel Moreno
+Author URI: http://twitter.com/deumolo
+Version: 1.0
+Tags: responsive, white, bootstrap
+*/
+
+@import url('bootstrap/css/bootstrap.css'); 
+@import url('bootstrap/css/bootstrap-responsive.css'); 
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,700,800);
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700,900);
+
+
+body { 
+	font-family: Open Sans;
+ 	padding-top: 60px; 
+ 	padding-bottom: 40px; 
+}
+
+.altura-m{height: 5px; clear:both;}
+.altura-1{height: 10px; clear:both;}
+.altura-2{height: 20px; clear:both;}
+.altura-3{height: 30px; clear:both;}
+.altura-4{height: 40px; clear:both;}
+.altura-5{height: 50px; clear:both;}
+.altura-6{height: 60px; clear:both;}
+.altura-7{height: 70px; clear:both;}
+.altura-8{height: 80px; clear:both;}
+.altura-9{height: 90px; clear:both;}
+.altura-10{height: 100px; clear:both;}
+
+img {
+    display: block;
+    height: auto;
+    max-width: 100%;
+    margin:auto;
+}
+
+/*MEDIA QUERIES*/
+
+@media (max-width: 767px) { 
+}
+
+@media (min-width: 768px) and (max-width: 991px) {	
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+}
+
+@media (min-width: 1200px) {
+}
